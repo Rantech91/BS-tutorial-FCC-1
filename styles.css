@@ -133,7 +133,7 @@ Experience
 ===========*/
 
 .experience {
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
 }
 
 .experience .column {
@@ -141,12 +141,14 @@ Experience
     border: 2px solid #8080804d;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
 }
 
-.experience .row div {
-    height: 250px;
-
-
+.experience .column:hover {
+    color: white;
+    background: #1b1b32;
 }
 
 .experience-title {
@@ -161,6 +163,7 @@ Experience
     background-color: #0a0a23;
     padding: 8px 19px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .badges-container {
