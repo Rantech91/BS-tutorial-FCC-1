@@ -48,7 +48,9 @@
 }
 
 
-/* Global Styles */
+/*==============
+Global Styles 
+================*/
 section {
     display: flex;
     flex-direction: column;
@@ -61,7 +63,30 @@ h1 {
     font-family: var(--title-1)
 }
 
-/* Hero section */
+.section-dark {
+    color: white;
+    background: #1b1b32;
+}
+
+.section-title {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: var(--title-1)
+}
+
+.section-text {
+    font-size: 1.2rem;
+}
+
+.section-light {
+    color: black;
+    background: white;
+}
+
+
+/*==========
+Hero section 
+============*/
 .hero {
     background-color: #f5f6f7;
     min-width: 450px;
@@ -88,16 +113,65 @@ h1 {
 About Me
 ===========*/
 
-.dark-section {
+.section-dark {
     background: #1b1b32;
     color: var(--white);
 }
 
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
+
+.about-me .info-container {
+    max-width: 600px;
+    text-align: center;
+}
+
+/*=========
+Experience
+===========*/
+
+.experience {
+    padding: 40px;
+}
+
+.experience .column {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience .row div {
+    height: 250px;
 
 
+}
 
+.experience-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
 
+.experience i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
 
+.badges-container {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
 
 
 /* responsive adaptative styles */
